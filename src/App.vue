@@ -1,8 +1,7 @@
 <script >
 //import component h1
-import HeaderComponent from './components/HeaderComponent.vue';
-import MainComponent from './components/MainComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
+import CardYugioh from './components/CardYugioh.vue';
+
 
 
 // my-component.js
@@ -11,15 +10,13 @@ export default {
     return 
   },
   components:{
-    HeaderComponent, MainComponent, FooterComponent
+    CardYugioh
   }
 }
 </script>
 
 <template>
-    <HeaderComponent />
-    <MainComponent/>
-    <FooterComponent />
+    <CardYugioh/>
 </template>
 
 <style scoped>
