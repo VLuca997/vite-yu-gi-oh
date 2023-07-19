@@ -1,0 +1,15 @@
+@use "partials/variables" as *;
+@use "partials/reset" as *;
+@use "partials/mixins" as *;
+
+
+h1{
+    color: $color-primary;
+    
+}
+h2{
+    background-color: $secondary-color;
+    color: $alternative-secondary;
+    
+
+}
